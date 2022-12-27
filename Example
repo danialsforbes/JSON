@@ -1,0 +1,13 @@
+{
+        "Comment" " "Hello World Example",
+        "StartAt" " "Helloworld",
+        "States" : {
+        "Helloworld" : {
+                "Type" : "Task",
+                "Resorce" :
+        "arn:aws:lambda:REGION:ACCOUNT_ID:function:
+        FUNCTION_NAME",
+                "End" : true
+                }
+           }
+ }
