@@ -1,0 +1,10 @@
+{
+"Type": "AWS:EC2::VPCPeeringConnection",
+"Properties":{
+"PeerVpcId": "pvc-la2b3c4d",
+"VpcId": "vpc-11122233",
+"PeerOwnerId": "444455556666",
+"PeerRegion": "us-east-1",
+"PeerRoleArn": "arn:aws:ec2:us-east-1:444455556666"
+}
+}
